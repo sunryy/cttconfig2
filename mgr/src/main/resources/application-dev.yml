@@ -1,0 +1,15 @@
+debug: true
+server:
+  port: 8099
+  servlet:
+    context-path: /MesConfMgr
+
+
+
+zookeeper:
+  instance-id: 1
+  node-id: 1
+  install-path: /data/apps/pg-zookeeper-3.5.9
+  install-ip: 172.16.200.125
+  install-port: 13181
+  exporter-port: 18200

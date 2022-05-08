@@ -1,0 +1,30 @@
+[2022-05-05 15:02:12,573][org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.1.5.Final  
+[2022-05-05 15:02:12,609][com.ctg.mes.config.mgr.Application] - Starting Application on 0000000g-qgoxsu with PID 186952 (E:\work\mseDev\ctg-mes-config\mgr\target\classes started by Administrator in E:\work\mseDev\ctg-mes-config)  
+[2022-05-05 15:02:12,610][com.ctg.mes.config.mgr.Application] - The following profiles are active: dev  
+[2022-05-05 15:02:15,073][com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor] - Post-processing PropertySource instances  
+[2022-05-05 15:02:15,111][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy  
+[2022-05-05 15:02:15,113][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper  
+[2022-05-05 15:02:15,113][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper  
+[2022-05-05 15:02:15,114][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper  
+[2022-05-05 15:02:15,115][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper  
+[2022-05-05 15:02:15,116][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper  
+[2022-05-05 15:02:15,116][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter] - Converting PropertySource applicationConfig: [classpath:/application-dev.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper  
+[2022-05-05 15:02:15,116][com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter] - Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper  
+[2022-05-05 15:02:15,176][com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter  
+[2022-05-05 15:02:15,426][com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver  
+[2022-05-05 15:02:15,432][com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector  
+[2022-05-05 15:02:15,849][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8099 (http)  
+[2022-05-05 15:02:15,870][org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8099"]  
+[2022-05-05 15:02:15,871][org.apache.catalina.core.StandardService] - Starting service [Tomcat]  
+[2022-05-05 15:02:15,872][org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.37]  
+[2022-05-05 15:02:15,874][org.apache.catalina.core.AprLifecycleListener] - Loaded Apache Tomcat Native library [1.2.28] using APR version [1.7.0].  
+[2022-05-05 15:02:15,874][org.apache.catalina.core.AprLifecycleListener] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].  
+[2022-05-05 15:02:15,874][org.apache.catalina.core.AprLifecycleListener] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]  
+[2022-05-05 15:02:15,880][org.apache.catalina.core.AprLifecycleListener] - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]  
+[2022-05-05 15:02:16,233][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/MesConfMgr]] - Initializing Spring embedded WebApplicationContext  
+[2022-05-05 15:02:16,234][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 3525 ms  
+[2022-05-05 15:02:17,199][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'  
+[2022-05-05 15:02:17,531][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] - Initializing ExecutorService 'taskScheduler'  
+[2022-05-05 15:02:17,620][org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8099"]  
+[2022-05-05 15:02:17,681][org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8099 (http) with context path '/MesConfMgr'  
+[2022-05-05 15:02:18,186][com.ctg.mes.config.mgr.Application] - Started Application in 6.602 seconds (JVM running for 9.12)  

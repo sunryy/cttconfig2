@@ -1,0 +1,15 @@
+package com.ctg.mes.config.mgr.build;
+
+/**
+ * Auto-generated code, do not EDIT!!!
+ *
+ * @Auto-generated
+ */
+public interface Versions {
+
+    public static final String SERVER_VERSION = "CTG-MES-CONFIG-MGR-@serverVersion@-@buildTime@";
+
+    public static final String SCM_VERSION = "GIT: @scmVersion@";
+
+    public static final String BUILD_TIMESTAMP = "@buildTime@";
+}

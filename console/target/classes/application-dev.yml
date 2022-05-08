@@ -1,0 +1,22 @@
+debug: true
+server:
+  port: 8098
+  servlet:
+    context-path: /MesConfConsole
+
+swagger:
+  basePackage: com.ctg.mes.config.console.controller.zookeeper
+  title: ctg-mes-config-console RESTful APIs
+  description: ctg-mes-config-console RESTful API
+  version: 1.0.0-SNAPSHOT
+  openApi:
+    group: OpenApi
+    basePackage: com.ctg.mes.config.console.controller.zookeeper
+    title: ctg-mes-config-console Open APIs
+    description: ctg-mes-config-console Open API
+    version: 1.0.0-SNAPSHOT
+
+#监控中心prometheus地址
+monitor:
+  prometheus:
+    addr: 10.50.208.172:8001

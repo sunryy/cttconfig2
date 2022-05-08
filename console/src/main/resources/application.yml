@@ -1,0 +1,22 @@
+# default profile, 与环境无关
+spring:
+  profiles:
+    active: dev
+  application:
+    name: ctg-mes-config
+
+# mybatis
+mybatis:
+  type-aliases-package: com.ctg.mes.config.entity
+  mapper-locations:
+    - classpath:mapper/*.xml
+    - classpath:dao/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+jasypt:
+  encryptor:
+    password: ctg_mes
+    algorithm: PBEWithMD5AndDES
+    iv-generator-classname: org.jasypt.iv.NoIvGenerator
+
